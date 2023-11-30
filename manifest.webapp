@@ -1,0 +1,43 @@
+{
+  "version": "1.0.2",
+  "name": "Kai Nightscout",
+  "description": "Following a loved one disease should not be reserved to those with smartphones. With Kai Nightscout, you can get updates from your relative or partners glucose levels, as well as receive alarms when their levels are high or low.",
+  "type": "privileged",
+  "csp": "default-src *; script-src 'self'; object-src 'none'; style-src 'self' 'unsafe-inline'",
+  "launch_path": "/index.html",
+  "icons": {
+    "56": "/images/x56.png",
+    "84": "/images/x84.png",
+    "112": "/images/x112.png"
+  },
+  "developer": {
+    "name": "Daniel",
+    "url": ""
+  },
+  "dependencies": {
+		"ads-sdk": "1.5.8"
+	},
+  "categories": [
+    "entertainment",
+    "health"
+  ],
+  "locales": {
+    "en-US": {
+      "name": "Kai Nightscout",
+      "subtitle": "A Nightscout follower app for KaiOS phones",
+      "description": "Following a loved one disease should not be reserved to those with smartphones. With Kai Nightscout, you can get updates from your relative or partners glucose levels, as well as receive alarms when their levels are high or low."
+    }
+  },
+  "default_locale": "en-US",
+  "origin": "app://kaios.pink.org",
+  "permissions": {
+    "systemXHR": {
+      "description": "Required to bypass CORS limitations."
+    },
+    "mobiledata": {},
+    "wifidata": {},
+    "notifications": {
+	"description": "Receive alarms for high/low blood sugar"
+	}
+  }
+}

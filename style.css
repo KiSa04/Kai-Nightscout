@@ -1,0 +1,68 @@
+/* Reset de estilos padrão do navegador */
+body, h1, p, input, button {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilos para o contêiner principal */
+.container {
+    margin: 50px auto;
+    text-align: center;
+}
+
+/* Estilos para o título principal */
+h1 {
+    color: #333;
+    font-size: 30px; /* Larger font size for a more prominent title */
+    margin-bottom: 30px; /* Increased margin for better spacing */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+}
+
+/* Estilos para o contêiner de valores de glicose */
+#glucoseValue {
+    background-color: #f0f0f0;
+    padding: 30px; /* Increased padding for a more spacious look */
+    border-radius: 15px; /* Rounder corners for a softer appearance */
+}
+
+/* Estilos para o contêiner de configuração */
+#config-container {
+    margin-top: 30px; /* Increased margin for better separation */
+    padding: 30px; /* Increased padding for a more luxurious feel */
+    border: 2px solid #ddd; /* Thicker border for a defined look */
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para o campo de entrada e botão na configuração */
+label {
+    display: block;
+    margin-bottom: 15px; /* Increased margin for better spacing */
+    font-size: 16px; /* Adjusted font size for better readability */
+    color: #555; /* Slightly darker color for better contrast */
+}
+
+input {
+    width: 100%;
+    padding: 15px; /* Increased padding for better input field aesthetics */
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc; /* Added border for a refined look */
+    border-radius: 8px; /* Rounded corners for a softer appearance */
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 15px 30px; /* Increased padding for a larger button */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #45a049;
+}
